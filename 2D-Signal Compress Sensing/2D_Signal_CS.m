@@ -59,7 +59,7 @@ axis([0 1024 0 1200]);
 set(gcf,'Position',[100 100 600 400])
 set(gcf,'PaperPositionMode','auto')
 
-%% Cosamp function for finding the solution
+%%Cosamp function for finding the solution
 function [s] = cosamp(Phi, y, K, tol, max_iter)
     % CoSaMP algorithm for sparse signal recovery
     
